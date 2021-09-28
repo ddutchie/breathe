@@ -40,10 +40,11 @@ public class GameManager : MonoBehaviour
     {
         // Debug.Log("State Switched : " + state);
         theCurrentGameState = state;
+        breathTitle.SetActive(state == stateOfGame.paused);
     }
     public PauseIndicator pauseIndicator;
     public PauseIndicator selectIndicator;
-
+    public GameObject breathTitle;
 
     public CheckControllers mainBreathingSphere;
 
@@ -78,6 +79,7 @@ public class GameManager : MonoBehaviour
                 SwitchState(stateOfGame.paused);
                 BreathingManager.instance.OutBreathStop();
                 PlayEndGameAudio();
+                HelpManager.instance.SetText("");
 
             }
         }

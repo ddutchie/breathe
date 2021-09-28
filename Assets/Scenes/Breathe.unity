@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.9384777, g: 0.9384777, b: 0.9384777, a: 1}
+  m_IndirectSpecularColor: {r: 0.07739278, g: 0.07739278, b: 0.07739278, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2591,6 +2591,7 @@ MonoBehaviour:
   theCurrentGameState: 0
   pauseIndicator: {fileID: 1727375947}
   selectIndicator: {fileID: 96065893}
+  breathTitle: {fileID: 1024525432}
   mainBreathingSphere: {fileID: 1020449874}
   distance: 0
   distanceOffset: 0.06

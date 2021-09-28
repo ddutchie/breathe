@@ -37,7 +37,7 @@ public class VRPlayerInfo : MonoBehaviour
         HelpManager.instance.SetText("Hello");
 
         yield return new WaitForSeconds(4);
-        HelpManager.instance.SetText("Sit or stand, and put both hands into the sphere so you are positionioned comfortably.");
+        HelpManager.instance.SetText("Sit or stand, and put both hands into the sphere so you are positioned comfortably.");
         while (!GameManager.instance.mainBreathingSphere.bothHandsInSphere)
         {
             yield return null;

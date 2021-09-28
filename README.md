@@ -17,8 +17,8 @@ a meditation app that encourages arm movement and breathing.
 -audio\visual and haptic encouragement.
 
 
--some third party assets/scripts were used in prototyping.
--- Keijiro Noiseball for vertex displacement.
--- Demigrant DoTween for tweens/animations.
--- Material Design for UI and Sounds.
--- Bensound.com for "Relaxing" audio track used as background music
+Some third party assets/scripts were used in prototyping.
+ Keijiro Noiseball for vertex displacement.
+ Demigrant DoTween for tweens/animations.
+ Material Design for UI and Sounds.
+ Bensound.com for "Relaxing" audio track used as background music

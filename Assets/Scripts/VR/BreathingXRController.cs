@@ -8,7 +8,7 @@ public class BreathingXRController : MonoBehaviour
     public InputDevice device;
     public InputDeviceCharacteristics deviceChar;
     public bool assigned;
-
+    public GameObject[] hideThese;
 
     // Start is called before the first frame update
     void Start()
@@ -47,6 +47,14 @@ public class BreathingXRController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        bool triggerValue;
 
+        if (device.TryGetFeatureValue(UnityEngine.XR.CommonUsages.gripButton, out triggerValue))
+        {
+            foreach (var item in hideThese)
+            {
+                item.SetActive(triggerValue);
+            }
+        }
     }
 }

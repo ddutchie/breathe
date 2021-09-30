@@ -4,7 +4,8 @@
 
 a simple vr meditation app made in a few hours for a job application.
 
-made in Unity 2019.4.29f1 but should work in anything with a few backwards or forwards fixes.
+made in Unity 2020.3.19.f1 but should work in anything with a few backwards or forwards fixes.
+Building for android (Oculus Quest) and Windows (Oculus) works - The code is not Oculus specific, these are the only plugins activated with unity's xr plugin management system.
 
 a meditation app that encourages arm movement and breathing.
 -------------
